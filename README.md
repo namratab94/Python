@@ -1,4 +1,4 @@
-Guess-the-number
+Python Programs
 ================
 
-Python mini project on the two player game Guess the number
+Mini projects implemented using Python.
