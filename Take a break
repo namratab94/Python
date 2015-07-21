@@ -1,0 +1,13 @@
+import webbrowser
+import time
+
+def break_time():
+        total_breaks = 4                                          #Total number of breaks
+        break_count = 1       
+        while(break_count < total_breaks):
+                time.sleep(10)                                    #Time period in seconds after which the mentione link opens to give a break to the user.
+                print("The program started on "+time.ctime())     #Prints the computer time at which the program runs.
+                webbrowser.open("URL_of_the_video_to_be_played")
+                break_count += 1
+
+break_time()
